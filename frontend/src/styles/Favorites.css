@@ -1,0 +1,18 @@
+.favorites {
+    background: rgba(240, 255, 240, 0.85);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .text-muted {
+    font-style: italic;
+  }
+  
+  .list-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+  }
+  

@@ -1,0 +1,47 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to right, #c9e9f6, #9094a3);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.App {
+  margin: 30px auto;
+  max-width: 1200px;
+  background: #f0f0f0;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3.5rem;
+  color: #495057;
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: bold;
+
+}
+
+.container {
+  padding: 20px;
+}
+
+.header-container {
+  background-color: rgba(177, 255, 230, 0.848);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border: 2px solid #e9ecef;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
